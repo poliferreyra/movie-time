@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+body {
+
+  background-color: black;
+  background-image: url(assets/imagenes/movie-time.png);
+  background-position: top center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+header {
+  width: 100%;
+  text-align: center;
+}
+header h1{
+  padding-top: 200px;
+  margin-bottom: 20px;
+  font-family: 'Alike', serif;
+}
+/* seccion-grafica */
+section.container-grafic {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cont-img {
+  object-fit: cover;
+}
+.cont-video {
+  object-fit: cover;
+}
+
+/*seccion-generos*/
+.container-genres {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-genres a {
+  background-color: #f71b21;
+  margin: 20px;
+  padding: 15px;
+  text-align:justify;
+  text-decoration: none;
+  border-radius: 10%;
+  font-size: 15px;
+
+}
+.cont-synopsis{
+  border: 2px solid #f71b21;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+}
+.cont-synopsis p{
+  text-align: left;
+}
+.container-info{
+  border: 2px solid #f71b21;
+  padding: 20px;
+  margin: 20px;
+
+}
+.container-director{
+  text-align: left;
+  padding: 20px;
+
+
+}
+.container-actors{
+  text-align: left;
+  padding: 20px;
+}
+
+.container-info a{
+  margin: 10px;
+}
+footer, p{
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+}
